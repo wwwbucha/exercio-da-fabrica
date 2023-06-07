@@ -10,9 +10,9 @@ while True:
         print("7- IMPRIMIR RELATORIO DO CADASTRO DO AVIAO")
         print("8- IMPRIMIR RELATORIO DO CADASTRO DA TRIPULAÇAO")
         print("0- SAIR")
-        opcoes=int(input("QUAL SUA ESCOLHA? "))
+        opcoes=int(input("Digite o numero:  "))
     except ValueError:
-        print("O VALOR DIGITADO NAO É UM NÚMERO!!!!!!!")
+        print("O VALOR DIGITADO NAO É UM NÚMERO!")
         print("TENTE NOVAMENTE...")
         os.system("pause")
         continue
