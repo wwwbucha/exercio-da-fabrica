@@ -2,7 +2,7 @@ class bola:
     def __init__(self,bolota):
         self.bolota=bolota
         if bolota==1:
-            print("a bola está rolando vacilao.")
+            print("a bola está rolando.")
         elif bolota==2:
             print("a bola pingou.")
         elif bolota==3:
