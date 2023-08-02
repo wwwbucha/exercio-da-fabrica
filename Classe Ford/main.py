@@ -37,6 +37,8 @@ if opc == '3':
     x = Orcamento(nomepeca, valorpeca, quantidade)
     x.orcamentoValor(valorpeca, quantidade)
 if opc == '4':
-    nome==input("Digite seu nome: ")
+    nome1==input("Digite seu nome: ")
     rg=input("Digite seu rg: ")
     cpf=input("Digite seu cpf: ")
+    endereço=input("Digite seu endereço: ")
+    Comprasveiculo = CompraVeiculo(nome,rg,cpf,endereço)    
