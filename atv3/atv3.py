@@ -5,7 +5,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(" Ex03")
-        self.setGeometry(100,100,300,150)
+       
         self.label1 =QLabel("numero 1",self)
         self.label1.setGeometry(10,10,80,30)
         self.input1 =QLineEdit(self)
